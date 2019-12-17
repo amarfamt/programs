@@ -5,6 +5,7 @@ pipeline {
       steps {
         echo 'Hello Success !Well Done Amar and ffhfdhxsyfsgfghSanvi'
         sh 'ls -la' 
+        sh 'date'
       }
     }
     stage('Build') {
