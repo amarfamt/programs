@@ -3,6 +3,7 @@ pipeline {
   stages {
     stage('myStage'){
       steps {
+        echo 'Hello Success !Well Done Amar'
         sh 'ls -la' 
       }
     }
