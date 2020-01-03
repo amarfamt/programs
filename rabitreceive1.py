@@ -31,4 +31,4 @@ def callback(ch, method, properties, body):
   print("Green")  
 channel.basic_consume(callback,queue='ITAsystem',no_ack=True)
 channel.start_consuming()
-#testing 12345678
+#testing 123456789
