@@ -32,4 +32,5 @@ def callback(ch, method, properties, body):
 channel.basic_consume(callback,queue='ITAsystem',no_ack=True)
 channel.start_consuming()
 #testing 123456789
-#Just adding3
+#Just adding5
+#
